@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif; 
+}
+body{
+    max-width: 1440px;
+    margin:0 auto;
+}
+section{
+    width: 100%;
+    border: 1px solid red;
+}
+/* nav start */
+
+nav{
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    background:#1A0B2E ;
+}
+.container{
+    border: 0;
+    max-width:1140px ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+
+}
+.logo h1{
+    color:#FFFFFF ;
+    font-size: 38px;
+    font-weight: 800;
+
+}
+.text{
+    color: rgb(173, 7, 173);
+}
+.container ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px ;
+}
+.container ul li{
+    list-style: none;
+}
+.container  ul li a{
+   text-decoration: none;
+    color:#FFFFFF ;
+    font-size: 16px;
+    font-weight: 500;
+}
+  .btm{
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius:50px; 
+    outline: 0;
+    transition: 3s;
+    cursor: pointer;
+    font-size:16px ;
+    font-weight: 600;
+    background-image:linear-gradient(to left,  purple,deeppink,yellow); 
+}
+
+.btm:hover{
+   transform: scale(-2px);
+}
+.menu{
+    font-size: 20px;
+    color: #FFFFFF;
+     display: none; 
+}
+
+/* banner start */
+
+.banner{
+    width: 100%;
+    /* height: 100vh; */
+    background-image: url(./B13-A02-TechWave-main/B13-A02-TechWave-main/assets/hero-bg.png);
+    
+}
+
+   
+
+.banner-img{
+    position: relative;
+}
+.imags{
+    position: absolute;
+    top: 16%;
+    left:38% ;
+}
+.btn{
+    border: 0;
+    padding: 6px 9px;
+    background:#00FF88 ;
+    border-radius:50px ;
+    position: absolute;
+    top: 11%;
+    right:18% ;
+}
+.banner .container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 70px;
+}
+.banner-content{
+    margin-top:20px ;
+}
+.banner-content h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+.banner-content p{
+    font-size: 16px;
+    color:#FFFFFF ;
+    padding-top: 10px;
+}
+.bnt{
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    background:transparent ;
+    color:#00FF88 ;
+    font-weight: 600;
+}
+.banner-btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    button{
+        display: none;
+    }
+    .container ul li{
+        flex-direction: column;
+        display:none ;
+    }
+    .menu{
+        display: block;
+    }
+    .banner .container{
+        flex-direction: column;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .banner-content{
+        flex-direction: column;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .banner-content h1{
+        font-size: 50px;
+    }
+    .banner-img  img{
+        flex-direction: column;
+       
+    }
+    .banner-btn{
+        flex-direction: column;
+    }
+    .bnt{
+        flex-direction: column;
+        display: block;
+    }
+    .btn{
+        flex-direction: column;
+        display: block;
+         position: absolute;
+        top: -0%;
+        right:20% ;
+    }
+    .banner-content .btm{
+       display: block; 
+    }
+    .imags{
+         position: absolute;
+        top: 13%;
+        left:35% ;
+    }
+}
