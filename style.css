@@ -460,8 +460,45 @@ main{
     height:20px ;
     margin-top:15px;
 }
+/* article host */
 
-
+article{
+    width: 100%;
+    border: 0;
+    background: #1A0B2E;
+}
+.host{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 0;
+   
+}
+.host h2{
+    font-size: 45px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.host-box{
+    border:0 ;
+    margin-top: 30px;
+    padding: 2px;
+    background:#3f2364 ;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    border-radius:40px ;
+}
+.icon-img{
+    width:30px ;
+    height:30px;
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius:100% ;
+    background: #230E3D;
+    margin-top: 20px;
+}
 
 
 
@@ -576,6 +613,8 @@ main{
     .iframe{
         flex-direction: column;
     }
-    
+    .host-box{
+        flex-direction: column;
+    }
 }
 
