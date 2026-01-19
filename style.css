@@ -73,7 +73,7 @@ nav{
 }
 
 .btm:hover{
-   transform: scale(-2px);
+   transform: translate(-60px);
 }
 .menu{
     font-size: 20px;
@@ -395,6 +395,71 @@ main{
     margin-top: 20px;
 }
 
+/* episode start */
+
+.episode{
+    width: 100%;
+    background: #1A0B2E;
+    border: 0; 
+
+}
+.episode-card{
+    max-width: 1140px;
+    padding: 20px;
+   margin-top:80px ;
+   border: 0;
+   margin: 0 auto;
+}
+.episode-card h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.iframe{
+    margin-top:30px ;
+   border: 0;
+   padding: 20px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+    gap: 20px;
+}
+.card-iframe{
+    width: 300px;
+    border: 0;
+    height:490px ;
+    border-radius: 16px;
+   background: #230E3D ;
+    padding: 10px;
+}
+.card-iframe h3{
+    font-size:20px ;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top:20px ;
+}
+.card-iframe p{
+    font-size:16px ;
+    color: #FFFFFF;
+    opacity:60% ;
+    line-height: 24px;
+    padding-top: 15px;
+}
+.min{
+    display: flex;
+    justify-content: left;
+    align-content: center;
+    margin-top: 10px;
+    gap: 8px;
+    font-weight: 600;
+}
+.min-img{
+    width:20px ;
+    height:20px ;
+    margin-top:15px;
+}
 
 
 
@@ -507,6 +572,9 @@ main{
     }
     .item5{
          width:350px ; 
+    }
+    .iframe{
+        flex-direction: column;
     }
     
 }
