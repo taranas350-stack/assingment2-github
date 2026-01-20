@@ -8,8 +8,8 @@
     font-family:"Inter", sans-serif; 
 }
 body{
-    max-width: 1440px;
-    margin:0 auto;
+    /* max-width: 1440px;
+    margin:0 auto; */
 }
 section{
     width: 100%;
@@ -103,6 +103,7 @@ nav{
 }
 .imags:hover{
     transform: rotate(-45deg);
+    cursor: pointer;
 }
 .btn{
     border: 0;
@@ -245,7 +246,7 @@ main{
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 280px);
+    grid-template-rows: repeat(2, 260px);
     gap: 20px;
 }
 .item{
@@ -253,7 +254,8 @@ main{
     
     grid-row: span 2;
     border-radius: 20px;
-     padding: 20px;
+    padding: 20px;
+    padding-top: 30px;
     
 }
 .item1{
@@ -262,6 +264,7 @@ main{
     grid-column: span 2;
     border-radius: 20px;
     padding: 20px;
+    padding-top: 30px;
 }
 .item2{
        background-color: #311553;
@@ -269,12 +272,14 @@ main{
     grid-column: span 2;
     border-radius: 20px;
     padding: 20px;
+    padding-top: 30px;
 }
 .item3{
     background-color: #311553;
    
     border-radius: 20px;
     padding: 20px;
+    padding-top: 30px;
     
 }
 
@@ -358,6 +363,7 @@ main{
     width: 100%;
     background: #1A0B2E;
     border: 0; 
+   
 
 }
 .episode-card{
@@ -382,11 +388,12 @@ main{
    justify-content: center;
    align-content: center;
     gap: 20px;
+   
 }
 .card-iframe{
     width: 300px;
     border: 0;
-    height:490px ;
+    /* height:490px ; */
     border-radius: 16px;
    background: #230E3D ;
     padding: 10px;
@@ -618,6 +625,10 @@ article{
     .iframe{
         flex-direction: column;
     }
+    .card-iframe{
+        flex-direction: column;
+       
+    }
     .host-box{
         flex-direction: column;
     }
@@ -631,6 +642,7 @@ article{
     .foot{
          padding: 8px; 
     }
-    
+   
+   
 }
 
