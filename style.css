@@ -391,9 +391,9 @@ main{
    
 }
 .card-iframe{
-    width: 300px;
+     width: 220px;
     border: 0;
-    /* height:490px ; */
+    /* height:490px ; */ 
     border-radius: 16px;
    background: #230E3D ;
     padding: 10px;
@@ -646,3 +646,14 @@ article{
    
 }
 
+@media screen and (min-width: 480px) and (max-width: 768px)  {
+    
+
+         body{
+                background-color: aquamarine;
+
+         }
+         .card-iframe{
+            display: block;
+         }
+}
